@@ -28,12 +28,19 @@ Once this is done, you should be all set to run the scraping code and get the .c
 │   └───scrape-assigment
 |       |   __init__.py
 │       └───api-scrape
-|           |   config.py
+|           |   
 |           |   scrape.py
 |           |   __init__.py
-│           └───csv_data  {csv data storing folder}
-│           └───json_data {json data storing folder}
-
-
-
+│           └───uoit-events.csv
 ```
+## Scraping and export data to a csv file
+```
+cd scrape-assignment/api-scrape/
+python3 scrape.py
+```
+This should scrape the data from `events.uoit.ca`, then export it into a csv file, `uoit-events.csv`. 
+
+
+
+
+
