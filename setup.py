@@ -4,12 +4,12 @@ except ImportError:
     from distutils.core import setup
 
 config = {
-    'description': 'reference',
+    'description': 'scraping for uoit events in 2017',
     'author': 'Varun Gopikrishna',
     'author_email': 'varun.gopikrishna@uoit.net',
     'version': '0.0.1',
     'packages': find_packages(),
-    'name': 'scrape-package'
+    'name': 'scrape-assignment'
 }
 
 setup(**config)
