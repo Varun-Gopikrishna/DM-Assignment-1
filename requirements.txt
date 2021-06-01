@@ -25,7 +25,7 @@ singledispatch==3.4.0.3
 six==1.11.0
 subprocess32==3.2.7
 unity-lens-photos==1.0
-urllib3==1.22
+urllib3==1.26.5
 vboxapi==1.0
 virtualenv==15.1.0
 wrapt==1.10.11
